@@ -1,0 +1,1 @@
+import streamlit as st; original=st.markdown; def my_mark(body, unsafe_allow_html=False, **kwargs): body = 'MODIFIED ' + body; return original(body, unsafe_allow_html=unsafe_allow_html, **kwargs); st.markdown=my_mark; import t2; t2.test()

@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "user_id": "demo_user",
+      "username": "demo_user",
+      "email": "demo@proof-of-reality.io",
+      "password": "demo1234",
+      "trust_score": 66,
+      "verified_proofs": 19,
+      "suspicious_proofs": 5,
+      "joined": "2024-01-01T00:00:00",
+      "avatar_color": "#7C3AED",
+      "notifications": [
+        {
+          "id": 21,
+          "msg": "Trust score increased by +8 \u2192 66 \u2b50",
+          "read": false,
+          "time": "2026-03-19T23:34:41.749371"
+        },
+        {
+          "id": 21,
+          "msg": "Trust score increased by +8 \u2192 58 \u2b50",
+          "read": false,
+          "time": "2026-03-19T23:33:31.539331"
+        },
+        {
+          "id": 21,
+          "msg": "Trust score decreased by -10 \u2192 75 \u26a0\ufe0f",
+          "read": false,
+          "time": "2026-03-17T15:40:22.172130"
+        },
+        {
+          "id": 21,
+          "msg": "Trust score decreased by -15 \u2192 85 \u26a0\ufe0f",
+          "read": false,
+          "time": "2026-03-17T15:39:49.409454"
+        },
+        {
+          "id": 21,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:39:15.896288"
+        },
+        {
+          "id": 21,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:33:20.139876"
+        },
+        {
+          "id": 20,
+          "msg": "Trust score increased by +8 \u2192 93 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:28:25.839127"
+        },
+        {
+          "id": 19,
+          "msg": "Trust score decreased by -15 \u2192 85 \u26a0\ufe0f",
+          "read": false,
+          "time": "2026-03-17T15:28:11.211761"
+        },
+        {
+          "id": 18,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:26:53.294925"
+        },
+        {
+          "id": 17,
+          "msg": "Trust score increased by +1 \u2192 95 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:26:10.321905"
+        },
+        {
+          "id": 16,
+          "msg": "Trust score increased by +1 \u2192 94 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:23:40.846028"
+        },
+        {
+          "id": 15,
+          "msg": "Trust score increased by +8 \u2192 93 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:23:09.919707"
+        },
+        {
+          "id": 14,
+          "msg": "Trust score decreased by -15 \u2192 85 \u26a0\ufe0f",
+          "read": false,
+          "time": "2026-03-17T15:22:49.748600"
+        },
+        {
+          "id": 13,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:18:17.086382"
+        },
+        {
+          "id": 12,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:18:13.222562"
+        },
+        {
+          "id": 11,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:17:43.641178"
+        },
+        {
+          "id": 10,
+          "msg": "Trust score increased by +1 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:09:04.756672"
+        },
+        {
+          "id": 9,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:08:50.642075"
+        },
+        {
+          "id": 8,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:08:38.400725"
+        },
+        {
+          "id": 7,
+          "msg": "Trust score increased by +8 \u2192 100 \u2b50",
+          "read": false,
+          "time": "2026-03-17T15:08:27.291161"
+        }
+      ]
+    },
+    {
+      "user_id": "alice_smith",
+      "username": "alice_smith",
+      "email": "alice@example.com",
+      "password": "alice123",
+      "trust_score": 91,
+      "verified_proofs": 1,
+      "suspicious_proofs": 0,
+      "joined": "2024-02-10T00:00:00",
+      "avatar_color": "#0EA5E9",
+      "notifications": []
+    },
+    {
+      "user_id": "bob_jones",
+      "username": "bob_jones",
+      "email": "bob@example.com",
+      "password": "bob12345",
+      "trust_score": 65,
+      "verified_proofs": 1,
+      "suspicious_proofs": 1,
+      "joined": "2024-03-15T00:00:00",
+      "avatar_color": "#10B981",
+      "notifications": []
+    },
+    {
+      "user_id": "nik123",
+      "username": "nik123",
+      "email": "nik123@gmail.com",
+      "password": "nik123456",
+      "trust_score": 51,
+      "verified_proofs": 2,
+      "suspicious_proofs": 1,
+      "joined": "2026-03-17T14:31:57.335308",
+      "avatar_color": "#3b82f6",
+      "notifications": [
+        {
+          "id": 4,
+          "msg": "Trust score decreased by -15 \u2192 51 \u26a0\ufe0f",
+          "read": false,
+          "time": "2026-03-17T14:35:11.988384"
+        },
+        {
+          "id": 3,
+          "msg": "Trust score increased by +8 \u2192 66 \u2b50",
+          "read": false,
+          "time": "2026-03-17T14:34:46.800214"
+        },
+        {
+          "id": 2,
+          "msg": "Trust score increased by +8 \u2192 58 \u2b50",
+          "read": false,
+          "time": "2026-03-17T14:33:04.657880"
+        },
+        {
+          "id": 1,
+          "msg": "Welcome to Proof-of-Reality! \ud83c\udf89 Your account is ready.",
+          "read": false,
+          "time": "2026-03-17T14:31:57.335352"
+        }
+      ]
+    }
+  ]
+}
