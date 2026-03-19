@@ -3,6 +3,11 @@
 
 > *"If it's not verified and on-chain, it cannot be trusted."*
 
+<<<<<<< HEAD
+=======
+>Project by [Caroline](https://github.com/perrywinkle2004) and [Nikita](https://github.com/Nikita-V222)
+
+>>>>>>> 768f657c5df6d7c756da2a5b4cd5074d5b200a8b
 ---
 
 ## 🌐 What is Proof-of-Reality?
@@ -126,8 +131,13 @@ streamlit run app.py
 ```
 
 ### 3. Open in Browser
+<<<<<<< HEAD
 ```
 http://localhost:8501
+=======
+
+[PoR](https://proof-of-reality.streamlit.app/)
+>>>>>>> 768f657c5df6d7c756da2a5b4cd5074d5b200a8b
 ```
 
 ---

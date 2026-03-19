@@ -1,26 +1,3 @@
 {
-  "records": [
-    {
-      "proof_id": "POR-001",
-      "filename": "banner.png",
-      "authenticity_score": 100,
-      "status": "VERIFIED",
-      "user_id": "demo_user",
-      "timestamp": "2026-03-19T23:33:28.879788",
-      "hash": "d9121ae7383754c0a753a8c0547e920221adb665e308ed3467c9deb472aca5a9",
-      "file_hash": "d9121ae7383754c0a753a8c0547e920221adb665e308ed3467c9deb472aca5a9",
-      "gps": "18.5204\u00b0 N, 73.8567\u00b0 E"
-    },
-    {
-      "proof_id": "POR-002",
-      "filename": "real_proof.jpg",
-      "authenticity_score": 100,
-      "status": "VERIFIED",
-      "user_id": "demo_user",
-      "timestamp": "2026-03-19T23:34:38.085006",
-      "hash": "fae9d5222732b8426f846b3015529d6f929211a0d02eb21bc76b2b304c7cb9b6",
-      "file_hash": "fae9d5222732b8426f846b3015529d6f929211a0d02eb21bc76b2b304c7cb9b6",
-      "gps": "13.0827\u00b0 N, 80.2707\u00b0 E"
-    }
-  ]
+  "records": []
 }
