@@ -211,9 +211,9 @@ def render_analytics():
     with col_i2:
         conf_counts = Counter(confidence_values) if confidence_values else {"No data": 0}
         total_proofs = len(confidence_values) if confidence_values else 1
-        high_pct = round(conf_counts.get("HIGH", 0) / total_proofs * 100, 1)
-        med_pct  = round(conf_counts.get("MEDIUM", 0) / total_proofs * 100, 1)
-        low_pct  = round(conf_counts.get("LOW", 0) / total_proofs * 100, 1)
+        high_pct = round(float(conf_counts.get("HIGH", 0)) / total_proofs * 100.0, 1)  # type: ignore
+        med_pct  = round(float(conf_counts.get("MEDIUM", 0)) / total_proofs * 100.0, 1)  # type: ignore
+        low_pct  = round(float(conf_counts.get("LOW", 0)) / total_proofs * 100.0, 1)  # type: ignore
 
         st.markdown(f"""
         <div class="intel-card">
@@ -236,11 +236,11 @@ def render_analytics():
         """, unsafe_allow_html=True)
 
     with col_i3:
-        susp_files = [r.get("filename", "?") for r in records if r.get("status") == "SUSPICIOUS"]
-        recent_susp = susp_files[-3:] if susp_files else ["None detected"]
+        susp_files = [str(r.get("filename", "?")) for r in records if r.get("status") == "SUSPICIOUS"]
+        recent_susp = susp_files[-3:] if susp_files else ["None detected"]  # type: ignore
         susp_html = "".join(
             f'<div style="padding:0.3rem 0;font-size:0.82rem;color:#ef4444;'
-            f'border-bottom:1px solid rgba(239,68,68,0.15)">🚨 {f[:30]}</div>'
+            f'border-bottom:1px solid rgba(239,68,68,0.15)">🚨 {str(f)[:30]}</div>'  # type: ignore
             for f in recent_susp
         )
 
