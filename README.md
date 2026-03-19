@@ -86,7 +86,7 @@ Dashboard + Verification Portal
 
 ## 🗂️ Project Structure
 
-```
+
 proof_of_reality/
 ├── app.py                    # Main entry point + router + navbar
 │
@@ -125,6 +125,8 @@ proof_of_reality/
 ├── requirements.txt
 └── README.md
 ```
+
+---
 
 ---
 
