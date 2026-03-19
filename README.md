@@ -2,8 +2,6 @@
 ### AI + Blockchain Powered Truth Verification System
 
 > *"If it's not verified and on-chain, it cannot be trusted."*
->
-> Project by [Caroline](https://github.com/perrywinkle2004) and [Nikita](https://github.com/Nikita-V222)
 
 ---
 
@@ -30,7 +28,7 @@ streamlit run app.py
 
 ### 3. Open in Browser
 
-[PoR](https://proof-of-reality.streamlit.app/)
+[Proof-of-Reality](https://proof-of-reality.streamlit.app/)
 ```
 ## 🎯 The Problem
 
@@ -127,13 +125,6 @@ proof_of_reality/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-
----
-
-
 
 ---
 
@@ -288,7 +279,7 @@ detector = pipeline("image-classification", model="umm-maybe/AI-image-detector")
 
 ---
 
-##  Pitch Points
+## 🏆Pitch Points
 
 1. **Real problem**: Insurance fraud costs $80B/year globally
 2. **Working demo**: Upload → validate → blockchain in <3 seconds
