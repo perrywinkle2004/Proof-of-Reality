@@ -2,10 +2,8 @@
 ### AI + Blockchain Powered Truth Verification System
 
 > *"If it's not verified and on-chain, it cannot be trusted."*
-
-
-=======
->Project by [Caroline](https://github.com/perrywinkle2004) and [Nikita](https://github.com/Nikita-V222)
+>
+> Project by [Caroline](https://github.com/perrywinkle2004) and [Nikita](https://github.com/Nikita-V222)
 
 ---
 
@@ -18,7 +16,22 @@
 Upload an accident photo → AI validates authenticity → SHA-256 hash stored on-chain → Insurer verifies via portal.
 
 ---
+## ▶️ Quick Start
 
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Run the App
+```bash
+streamlit run app.py
+```
+
+### 3. Open in Browser
+
+[PoR](https://proof-of-reality.streamlit.app/)
+```
 ## 🎯 The Problem
 
 Fake data exists everywhere:
@@ -117,27 +130,7 @@ proof_of_reality/
 
 ---
 
-## ▶️ Quick Start
 
-### 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Run the App
-```bash
-streamlit run app.py
-```
-
-### 3. Open in Browser
-<<<<<<< HEAD
-```
-http://localhost:8501
-=======
-
-[PoR](https://proof-of-reality.streamlit.app/)
->>>>>>> 768f657c5df6d7c756da2a5b4cd5074d5b200a8b
-```
 
 ---
 
@@ -292,7 +285,7 @@ detector = pipeline("image-classification", model="umm-maybe/AI-image-detector")
 
 ---
 
-## 🏆 Hackathon Pitch Points
+##  Pitch Points
 
 1. **Real problem**: Insurance fraud costs $80B/year globally
 2. **Working demo**: Upload → validate → blockchain in <3 seconds
