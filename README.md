@@ -48,7 +48,6 @@ Fake data exists everywhere:
 
 ## 🏗️ System Architecture
 
-```
 User Upload
     ↓
 AI Validation Engine (OpenCV + Heuristics)
@@ -64,7 +63,7 @@ Blockchain Storage (simulated ledger)
 Trust Score Update
     ↓
 Dashboard + Verification Portal
-```
+
 
 ---
 
