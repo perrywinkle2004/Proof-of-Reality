@@ -3,8 +3,6 @@
 
 > *"If it's not verified and on-chain, it cannot be trusted."*
 
-Link to the Project : https://proof-of-reality.streamlit.app/
-
 ---
 
 ## 🌐 What is Proof-of-Reality?
