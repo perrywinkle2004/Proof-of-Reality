@@ -7,7 +7,7 @@
 
 ## 🌐 What is Proof-of-Reality?
 
-**Proof-of-Reality** is a hackathon-ready, end-to-end trust verification system that combines AI-powered image forensics with a simulated immutable blockchain ledger. It solves the global **fake data crisis** — fake insurance claims, fake medical records, fake resumes — by creating a cryptographic paper trail for every submitted proof.
+**Proof-of-Reality** is a hackathon-ready, end-to-end trust verification system that combines AI-powered image forensics with a simulated immutable blockchain ledger. It solves the global **fake data crisis** by fake insurance claims, fake medical records, fake resumes by creating a cryptographic paper trail for every submitted proof.
 
 **Primary Demo Use Case: Insurance Claim Verification**
 
@@ -40,9 +40,9 @@ Fake data exists everywhere:
 - 📰 Fake media / deepfakes
 
 **PoR solves this with a 3-layer trust architecture:**
-1. **AI Validation** — Image forensics, tampering detection, metadata checks
-2. **LLM Reasoning** — Human-readable explanation of why a proof passes or fails
-3. **Blockchain Storage** — Immutable SHA-256 hash ledger, searchable by anyone
+1. **AI Validation** —> Image forensics, tampering detection, metadata checks
+2. **LLM Reasoning** —> Human-readable explanation of why a proof passes or fails
+3. **Blockchain Storage** —> Immutable SHA-256 hash ledger, searchable by anyone
 
 ---
 
