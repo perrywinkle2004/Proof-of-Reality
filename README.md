@@ -28,7 +28,10 @@ streamlit run app.py
 
 ### 3. Open in Browser
 
+Click here:
 [Proof-of-Reality](https://proof-of-reality.streamlit.app/)
+
+
 ```
 ## 🎯 The Problem
 
